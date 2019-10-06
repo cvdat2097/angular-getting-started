@@ -1,0 +1,11 @@
+<label>C</label>
+<input
+  [value]="temperatureService.cTemper"
+  (keydown)="cChangeHandler($event.target.value)"
+/>
+<br />
+<label>F</label>
+<input
+  [value]="temperatureService.fTemper"
+  (keydown)="fChangeHandler($event.target.value)"
+/>
